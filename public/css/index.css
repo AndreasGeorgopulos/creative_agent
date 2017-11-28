@@ -1,0 +1,87 @@
+header { border-bottom: solid 1px #f1f1f1; padding-bottom: 18px; }
+header .check_our_blog { font-size: 18px; font-weight: bold; color: #9C9C9C; padding: 18px 0px 0px 18px; }
+header .check_our_blog a { display: inline-block; color: #00D561; text-decoration: underline; }
+header .social_menu { padding: 18px 18px 0px 0px; }
+header .social_menu a { margin-left: 18px; }
+header .social_menu a i { font-size: 24px; color: #CDCDCD; }
+
+
+.wrapper { width: auto; max-width: 1024px; margin: 0px auto 0px auto; }
+
+nav.main_nav { background-color: #ffffff; border: none; margin-top: 20px; }
+nav.main_nav .navbar-brand { padding: 7px 0px 0px 15px; }
+
+nav.main_nav ul.main_menu li a,
+nav.main_nav ul.main_menu li a:hover { font-size: 16px; font-weight: bold; color: #000000; }
+nav.main_nav ul.main_menu li.active a,
+nav.main_nav ul.main_menu li.active a:hover { color: #00D55F; background-color: #ffffff; }
+
+nav.main_nav a.estimate_project_btn,
+nav.main_nav a.estimate_project_btn:hover { margin-top: 5px; height: 35px; padding-top: 8px; font-size: 16px; font-weight: bold; color: #00D55F; background-color: #ffffff; border: solid 1px #00D55F; border-radius: 17px 17px 17px 17px;  }
+
+nav.main_nav a.navbar-toggle,
+nav.main_nav a.navbar-toggle:hover { background-color: #ffffff; border-color: #00d55f; cursor: pointer; }
+nav.main_nav a.navbar-toggle .icon-bar { background-color: #00d55f; }
+
+.grid_area { margin: 0px -30px 0px -30px; border-bottom: solid 3px #f1f1f1; padding: 20px 0px 40px 0px; }
+.grid_area h1:before { content: ''; display: block;  width: 40px;  border-bottom: 3px solid #00D55F; margin: 0px auto 15px auto; }
+.grid_area h2:after { content: ''; display: block;  width: 40px;  border-bottom: 3px solid #00D55F; margin: 15px auto 20px auto; }
+.grid_area p { font-size: 16px; color: #A0A0A0; }
+.grid_area .item h3 { display: block; font-size: 16px; font-weight: bold; color: #000000; margin-top: 15px; }
+.grid_area .item p { font-size: 14px; color: #A0A0A0; }
+.grid_area .grid-item { padding: 0px 30px 30px 30px; }
+.grid_area .grid-item a.item { display: block; background-color: #ffffff; height: 250px; text-decoration: none; }
+.grid_area .grid-item a.item:hover h3 { color: #00d55f; }
+.grid_area a.view_all { display: inline-block; width: 190px; font-size: 16px; font-weight: bold; color: #000000; border: solid 3px #EDEDED; border-radius: 18px 18px 18px 18px; margin: 0px auto 0px auto; padding: 10px 0px 7px 0px; }
+.grid_area a.view_all:hover { text-decoration: none; }
+
+.grid_area.resources .item { padding-top: 80px; box-shadow: 5px 5px 2px #f1f1f1; }
+
+.grid_area.popular_ebooks .grid-item .item { box-shadow: none; height: 330px; }
+
+.grid_area.popular_open_sources .grid-item .item { border: solid 3px #EDEDED; background-color: #ffffff; height: 250px; text-decoration: none; padding: 10px 25px 0px 25px; }
+.grid_area.popular_open_sources .grid-item .item a.github_link { display: block; background-image: url(../images/icon_github.png); background-repeat: no-repeat; background-position: right; padding-top: 3px; margin-top: 15px; width: 150px; height: 26px; font-size: 16px; text-decoration: underline; color: #00D55F; }
+
+.grid_area.popular_apps .grid-item .item { box-shadow: none; height: 300px; }
+.grid_area.popular_apps .grid-item .item h3 { margin-bottom: 0px; }
+
+.green_area { background-color: #00D664; padding: 40px 0px 40px 0px; }
+.green_area h2 { color: #FFFFFF; display: block; width: auto; max-width: 330px; margin: 0px auto 0px auto; }
+.green_area a.estimate_project_btn,
+.green_area a.estimate_project_btn:hover { margin-top: 10px; display: inline-block; padding: 10px 10px 10px 10px; font-size: 16px; font-weight: bold; color: #00D55F; background-color: #ffffff; border: solid 1px #00D55F; border-radius: 17px 17px 17px 17px;  }
+
+.social_area { border-bottom: solid 1px #f1f1f1;  }
+.social_area a { display: inline-block; padding: 30px 0px 30px 0px; }
+.social_area a i { font-size: 36px; color: #CDCDCD; }
+
+.newsletter { padding: 40px 0px 20px 0px; }
+.newsletter form input { width: 350px; border: none; border-bottom: solid 1px #CDCDCD; font-size: 16px; color: #A0A0A0; padding: 5px 0px 5px 0px; margin: 0px 30px 0px 30px; outline: none; }
+.newsletter form input::-webkit-input-placeholder { color: #CDCDCD; }
+.newsletter form input::-moz-placeholder { color: #CDCDCD; }
+.newsletter form input:-ms-input-placeholder { color: #CDCDCD; }
+.newsletter form input:-moz-placeholder { color: #CDCDCD; }
+.newsletter form button,
+.newsletter form button:hover { font-size: 16px; font-weight: bold; color: #00D55F; background-color: #ffffff; border: solid 1px #00D55F; border-radius: 17px 17px 17px 17px; }
+
+
+footer { padding-top: 40px; }
+footer .container { width: auto; max-width: 1024px; margin: 0px auto 0px auto; }
+footer .container h3 { text-transform: uppercase; font-size: 14px; font-weight: bold; color: #000000; margin: 10px 0px 0px 0px; }
+footer .container h3:after { content: ''; display: block;  width: 30px;  border-bottom: 3px solid #00D55F; margin: 15px 0px 20px 0px; }
+footer .container ul { list-style: none; padding: 0px 0px 0px 0px; }
+footer .container ul li,
+footer .container ul li a { font-size: 14px; font-weight: bold; color: #A0A0A0;  }
+footer .container ul li a.active { color: #00D55F; }
+footer .container ul li { height: 30px; }
+footer .container ul li.phone { color: #000000; }
+
+footer .container img.logo { margin-bottom: 30px; }
+
+
+@media screen and (max-width: 480px) {
+    .grid_area { margin: 0px 0px 0px 0px; }
+}
+
+@media screen and (max-width: 780px) {
+    .grid_area { margin: 0px 0px 0px 0px; }
+}
